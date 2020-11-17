@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/AnitaKuo/home/static/css/main.37919a37.chunk.css",
-    "main.js": "/AnitaKuo/home/static/js/main.47f793d8.chunk.js",
-    "main.js.map": "/AnitaKuo/home/static/js/main.47f793d8.chunk.js.map",
+    "main.js": "/AnitaKuo/home/static/js/main.fbc3687a.chunk.js",
+    "main.js.map": "/AnitaKuo/home/static/js/main.fbc3687a.chunk.js.map",
     "runtime-main.js": "/AnitaKuo/home/static/js/runtime-main.e3da2c1c.js",
     "runtime-main.js.map": "/AnitaKuo/home/static/js/runtime-main.e3da2c1c.js.map",
     "static/js/2.f8667edd.chunk.js": "/AnitaKuo/home/static/js/2.f8667edd.chunk.js",
     "static/js/2.f8667edd.chunk.js.map": "/AnitaKuo/home/static/js/2.f8667edd.chunk.js.map",
     "index.html": "/AnitaKuo/home/index.html",
-    "precache-manifest.9724a27e7a05ebd63254e0a43491d6f9.js": "/AnitaKuo/home/precache-manifest.9724a27e7a05ebd63254e0a43491d6f9.js",
+    "precache-manifest.927afbeaaaec0987c9c366cc84919d9e.js": "/AnitaKuo/home/precache-manifest.927afbeaaaec0987c9c366cc84919d9e.js",
     "service-worker.js": "/AnitaKuo/home/service-worker.js",
     "static/css/main.37919a37.chunk.css.map": "/AnitaKuo/home/static/css/main.37919a37.chunk.css.map",
     "static/js/2.f8667edd.chunk.js.LICENSE.txt": "/AnitaKuo/home/static/js/2.f8667edd.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.e3da2c1c.js",
     "static/js/2.f8667edd.chunk.js",
     "static/css/main.37919a37.chunk.css",
-    "static/js/main.47f793d8.chunk.js"
+    "static/js/main.fbc3687a.chunk.js"
   ]
 }
