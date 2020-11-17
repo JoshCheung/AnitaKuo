@@ -26,33 +26,33 @@ class Home extends Component {
             <div className="component-container"> 
                 <div id="home-component" class="grid">
                     <div className="profile" onClick={() => this.setHeader("About Me")}>
-                        <Link to="/bio">
+                        <Link to="/AnitaKuo/bio">
                             <img id="bioImage" className="profile-component" src={profilePic}></img>
                         </Link>
                     </div>
                     <div className="hobbies">
-                        <Link to="/hobbies">
+                        <Link to="/AnitaKuo/hobbies">
                             <div className="hobbies-component" onClick={() => this.setHeader("Hobbies")}> 
                                 Hobbies
                             </div>
                         </Link>
                     </div>
                     <div className="contacts">
-                        <Link to="/contacts">        
+                        <Link to="/AnitaKuo/contacts">        
                             <div className="contacts-component" onClick={() => this.setHeader("Contacts")}>
                                 Contacts 
                             </div>
                         </Link>
                     </div>
                     <div className="performances">
-                        <Link to="/performances">
+                        <Link to="/AnitaKuo/performances">
                             <div className="performances-component" onClick={() => this.setHeader("Recordings")}>
                                 Recordings
                             </div>
                         </Link>
                     </div>
                     <div className="music">
-                        <Link to="/repertoirelist">
+                        <Link to="/AnitaKuo/repertoirelist">
                             <div className="repertoire-component" onClick={() => this.setHeader("Repertoire")}>
                                 Repertoire
                             </div>
