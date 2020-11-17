@@ -1,0 +1,78 @@
+.component-container {
+    /* background: blue; */
+    height: 85%;
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+
+#performances-component {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-gap: 20px;
+    /* grid-template-columns: repeat(9, 20vmin);
+    grid-template-rows: repeat(10, 20vmin); */
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(1, auto);
+    
+    grid-template-areas: 
+    " .   .   .   .   .   .   .   .   . " 
+    "con con con con con con con con con"
+    "con con con con con con con con con" 
+    "con con con con con con con con con"
+    "con con con con con con con con con"
+    "con con con con con con con con con"
+    "con con con con con con con con con"
+    "con con con con con con con con con" 
+    "con con con con con con con con con"
+    "con con con con con con con con con"
+    "con con con con con con con con con";
+    
+}
+
+.main {
+    grid-area: con;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.picture-component {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    /* background-color: lightblue; */
+    /* border: 2px solid gray; */
+    color: #2e2e2e;
+}
+
+.solo {
+    grid-area: sol;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.sonata {
+    grid-area: son;
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.chamber{
+    grid-area: cha;
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.picture1-component {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    /* background-color: lightblue; */
+    color: #2e2e2e;
+}

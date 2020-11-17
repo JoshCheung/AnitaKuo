@@ -1,0 +1,49 @@
+.logo-container {
+    margin: auto;
+    height: 15%;
+    /* width: 100%; */
+    width: 60%;
+    position: fixed;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: left;
+    flex-direction: row;
+    /* background-color: purple; */
+}
+
+.logo {
+    height: 70%;
+    width: 10vh;
+    background-color: #B75129;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration-line: none;
+    z-index: 1;
+}
+
+.logo:hover {
+    background-color: rgb(192, 125, 0);
+    cursor: pointer;
+}
+
+#bioImage {
+    height: auto;
+    /* width: 100%; */
+    margin: auto;
+    display: table-row;
+    width: 27vh;
+    /* border-radius: 7%; */
+    /* margin-bottom: 10px; */
+}
+
+.content-header {
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 60%;
+    position: fixed;
+    font-size: 13vh;
+    z-index: 0;
+    color: #1A2426;
+}

@@ -1,0 +1,189 @@
+.home {
+    background: #E2C9B3;
+    height: 100vh; 
+    width: 100vw; 
+    margin: auto; 
+    justify-content: center; 
+    display: flex;
+}
+
+.component-container {
+    /* background: green; */
+    height: 90%;
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+
+#home-component {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-gap: 35px;
+    /* grid-template-columns: repeat(9, 20vmin);
+    grid-template-rows: repeat(10, 20vmin); */
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(1, auto);
+    
+    grid-template-areas: 
+    ". . . . . . . . ."
+    "c c c . . . v v v"
+    "c c c p p p v v v"
+    "c c c p p p v v v" 
+    "h h h p p p v v v"
+    "h h h p p p v v v"
+    "h h h p p p n n n"
+    "h h h m m m m m m"
+    "h h h m m m m m m"
+    ". . . m m m m m m";
+}
+
+.profile {
+    grid-area: p;
+    width: 100%;
+    text-decoration-line: none;
+    height: 0;
+    /* background-color: red; */
+}
+
+.nameplate {
+    grid-area: n;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    /* background-color: green; */
+}
+
+.hobbies {
+    grid-area: h;
+    width: 100%;
+    text-decoration-line: none;
+    /* background-color: orange; */
+}
+
+.contacts {
+    grid-area: c;
+    width: 100%;
+    text-decoration-line: none;
+    /* background-color: purple; */
+}
+
+.performances {
+    grid-area: v;
+    width: 100%;
+    text-decoration-line: none;
+    /* background-color: lightblue; */
+}
+
+.music {
+    grid-area: m;
+    width: 100%;
+    text-decoration-line: none;
+    /* background-color: blue; */
+}
+
+
+.profile-component {
+    height: 100%;
+    width: 100%;
+    /* border-radius: 30px; */
+    /* background-color: lightblue; */
+    color: #2e2e2e;
+}
+
+.profile-component:hover {
+    opacity: 0.9;
+    /* background-color: #B75129; */
+    cursor: pointer;
+    color: white;
+}
+
+
+.hobbies-component {
+    height: 100%;
+    width: 100%;
+    /* border-radius: 30px; */
+    background-color: #E68A38;
+    color: #2e2e2e;
+}
+
+.hobbies-component:hover {
+    opacity: 0.9;
+    background-color: #B75129;
+    cursor: pointer;
+    color: white;
+}
+
+
+.contacts-component {
+    height: 100%;
+    width: 100%;
+    /* border-radius: 30px; */
+    background-color: #E68A38;
+    color: #2e2e2e;
+}
+
+.contacts-component:hover {
+    opacity: 0.9;
+    background-color: #B75129;
+    cursor: pointer;
+    color: white;
+}
+
+.performances-component {
+    height: 100%;
+    width: 100%;
+    /* border-radius: 30px; */
+    background-color: #E68A38;
+    color: #2e2e2e;
+}
+
+.performances-component:hover {
+    opacity: 0.9;
+    background-color: #B75129;
+    cursor: pointer;
+    color: white;
+}
+
+.repertoire-component {
+    height: 100%;
+    width: 100%;
+    /* border-radius: 30px; */
+    background-color: #E68A38;
+    color: #2e2e2e;
+    margin-left: 50px;
+}
+
+.repertoire-component:hover {
+    opacity: 0.9;
+    background-color: #B75129;
+    cursor: pointer;
+    color: white;
+}
+
+.nameplate-component {
+    height: 100%;
+    width: 100%;
+    /* border-radius: 30px; */
+    display: flex;
+    color: #2e2e2e;
+    /* font-size: 48px; */
+    font-weight: bold;
+    justify-content: center;
+    /* background-color: lightblue; */
+}
+
+.name {
+    display: flex;
+    top: 30%;
+    position: relative;
+}
+
+
+
+
+
+  
+
