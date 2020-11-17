@@ -2,7 +2,7 @@
   "name": "anita_kuo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joshcheung.github.io/AnitaKuo/home",
+  "homepage": "https://joshcheung.github.io/AnitaKuo/",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
