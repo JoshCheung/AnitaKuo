@@ -2,6 +2,7 @@
   "name": "anita_kuo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://joshcheung.github.io/AnitaKuo/",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -17,12 +18,12 @@
     "reactstrap": "^8.7.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,6 +46,6 @@
     "@iconify/icons-fa-brands": "^1.0.16",
     "@iconify/icons-mdi": "^1.0.149",
     "@iconify/react": "^1.1.3",
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.2.0"
   }
 }
