@@ -45,7 +45,11 @@ class LandingPage extends Component {
                         </div>
                     </div>
                     <Switch>
-                        <Route path="/home">
+                        <Route path="/*">
+                            <Home
+                            setHeader={this.setHeader.bind(this)}/>
+                        </Route>
+                        <Route path="/">
                             <Home
                             setHeader={this.setHeader.bind(this)}/>
                         </Route>
