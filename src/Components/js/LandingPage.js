@@ -35,7 +35,7 @@ class LandingPage extends Component {
             <Router>
                 <div className="home">
                     <div className="logo-container"> 
-                        <Link className="logo" to="/"  onClick={() => this.setHeader("Anita Kuo")}>  
+                        <Link className="logo" to="/AnitaKuo/"  onClick={() => this.setHeader("Anita Kuo")}>  
                             <div>
                                 logo
                             </div>
@@ -45,23 +45,23 @@ class LandingPage extends Component {
                         </div>
                     </div>
                     <Switch>
-                        <Route exact path="/">
+                        <Route exact path="/AnitaKuo/">
                             <Home
                             setHeader={this.setHeader.bind(this)}/>
                         </Route>
-                        <Route path="/AnitaKuo/bio">
+                        <Route exact path="/AnitaKuo/bio">
                             <Bio/>
                         </Route>
-                        <Route path="/AnitaKuo/hobbies">
+                        <Route exact path="/AnitaKuo/hobbies">
 
                         </Route>
-                        <Route path="/AnitaKuo/contacts">
+                        <Route exact path="/AnitaKuo/contacts">
                             <Contacts/>
                         </Route>
-                        <Route path="/AnitaKuo/performances">
+                        <Route exact path="/AnitaKuo/performances">
                             <Performances/>
                         </Route>
-                        <Route path="/AnitaKuo/repertoirelist">
+                        <Route exact path="/AnitaKuo/repertoirelist">
                             <RepertoireList/>
                         </Route>
                     </Switch>
