@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "01879ac953616da34a7671053b13a469",
+    "revision": "2e9a59381e78150f39924d2592b70c66",
     "url": "/AnitaKuo/index.html"
   },
   {
-    "revision": "22a555d3f08fbe5a448a",
-    "url": "/AnitaKuo/static/css/main.37919a37.chunk.css"
+    "revision": "2ddfbd2f4082eaaf9bdc",
+    "url": "/AnitaKuo/static/css/main.fcbe6f08.chunk.css"
   },
   {
-    "revision": "d520969cc4fd2b60df92",
-    "url": "/AnitaKuo/static/js/2.f8667edd.chunk.js"
+    "revision": "bb94de7477205afd3b8d",
+    "url": "/AnitaKuo/static/js/2.77eeb461.chunk.js"
   },
   {
-    "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/AnitaKuo/static/js/2.f8667edd.chunk.js.LICENSE.txt"
+    "revision": "c83be2e7cfaa63cef32980cc4ea7c407",
+    "url": "/AnitaKuo/static/js/2.77eeb461.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22a555d3f08fbe5a448a",
-    "url": "/AnitaKuo/static/js/main.a0ab8417.chunk.js"
+    "revision": "2ddfbd2f4082eaaf9bdc",
+    "url": "/AnitaKuo/static/js/main.9566a398.chunk.js"
   },
   {
     "revision": "c48c2deed514f399106d",
     "url": "/AnitaKuo/static/js/runtime-main.cac2607b.js"
+  },
+  {
+    "revision": "c7bd33988719cd52a5c1125856ed0f98",
+    "url": "/AnitaKuo/static/media/Anita-Kuo-2020-Resume.c7bd3398.pdf"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
