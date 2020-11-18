@@ -1,42 +1,20 @@
 import {Table} from 'reactstrap';
 import React, { Component } from "react";
 import { Scrollbars } from 'react-custom-scrollbars';
+import YouTubeGrid from 'react-youtube-grid';
 
 
 class VideoList extends Component {
     constructor (props) {
         super(props);
-        this.state = {
-            videoList: ["testing1", "testing2", "testing3", "testing4", "testing5", "testing6", "testing7", "testing8"]
-        }
     }
 
 
     
     render() {
         return (
-            <div style={{height: '100%', paddingLeft: "10px", overflowX: "hidden", overflowY: "auto"}}>
-                <Scrollbars style={{height: '100%'}}>
-                    <Table borderless style={{width: "100%", borderRadius: "30px"}}>
-                        <tbody>
-                        {
-                        this.state.videoList.map((item, index) =>
-                            <tr style={{width: "100%"}} key={index} >
-                                <td style={{width: "33%", background: "red", height: "200px", fontSize: "medium", textAlign: "left"}}>
-                                    <div className="usernames" style={{color: "#424954"}}>{item}</div>
-                                </td>
-                                <td style={{width: "33%", background: "green", height: "200px", fontSize: "medium", textAlign: "left"}}>
-                                    <div className="usernames" style={{color: "#424954"}}>{item}</div>
-                                </td>
-                                <td style={{width: "33%", background: "blue", height: "200px", fontSize: "medium", textAlign: "left"}}>
-                                    <div className="usernames" style={{color: "#424954"}}>{item}</div>
-                                </td>
-                            </tr>
-                            )
-                        }
-                        </tbody>
-                    </Table>
-                </Scrollbars>
+            <div className="video-component-container">
+                <YouTubeGrid style={{overflowX: "none", overflowY: "hidden"}} youtubeUrls={['bTOYZW-_hyc', 'Z2RFIve6nn4', 'WpPm64gvu30', '_R1NYoXBm-g', 'XC8RKPS76ew', 'eMd-aTzzgMQ', 'R1JxLQVI3h4', 'BuTENLfkfLE']} />
             </div>
         );
     }

@@ -15,6 +15,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-window": "^1.8.6",
+    "react-youtube-grid": "^0.1.2",
     "reactstrap": "^8.7.0"
   },
   "scripts": {

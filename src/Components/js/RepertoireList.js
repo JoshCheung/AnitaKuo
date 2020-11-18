@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "../css/RepertoireList.css";
 import List from './List.js';
+import Pdf from '../../media/Anita-Kuo-2020-Resume.pdf';
+
+
 class RepertoireList extends Component {
     constructor (props) {
         super(props);
@@ -16,10 +19,22 @@ class RepertoireList extends Component {
     
     render() {
         return (
-            <div className="component-container">
+            <div className="rep-component-container">
                 {/* <div style={{fontSize: "72px"}}>Repertoire List</div> */}
                 <div id="repertoire-component" className="grid">
-                    
+                    <div className="resume-button-container">
+                        <div>
+                            <a className = "Button" href = {Pdf}>
+                                <a className="resume-text" href = {Pdf}>Résumé</a>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="performed-text-container">
+                        <div>
+                            <div className="performed-text">Performed *</div>  
+                        </div>
+                    </div>
+                   
                     <div className="concerto">
                         <div className="rep-container-component">
                             Concerto

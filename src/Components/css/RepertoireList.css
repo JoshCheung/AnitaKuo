@@ -1,6 +1,6 @@
-.component-container {
+.rep-component-container {
     /* background: blue; */
-    height: 90%;
+    height: 80%;
     width: 60%;
     margin: auto;
     display: block;
@@ -18,7 +18,7 @@
     grid-auto-rows: minmax(1, auto);
     
     grid-template-areas: 
-    " .   .   .   .   .   .   .   .   . " 
+    "txt   .   .   .   .   .   .   .  res" 
     "con con con sol sol sol son son son"
     "con con con sol sol sol son son son" 
     "con con con sol sol sol son son son"
@@ -31,12 +31,28 @@
     "con con con sol sol sol cha cha cha";
 }
 
-.concerto {
-    grid-area: con;
+.performed-text-container {
+    grid-area: txt;
     width: 100%;
-    height: 100%;
-    /* background-color: red; */
+    display: block;
+    bottom: 0;
+    right: 0;
+    margin-top: auto;
+    width: 100px;
 }
+
+.performed-text {
+    font-size: 1.4vh;
+    color: #2e2e2e;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.resume-button {
+   height: 20px;
+}
+
 
 .rep-container-component {
     height: 100%;
@@ -48,23 +64,30 @@
     color: #2e2e2e;
 }
 
+.concerto {
+    grid-area: con;
+    /* width: 100%; */
+    height: 100%;
+    /* background-color: red; */
+}
+
 .solo {
     grid-area: sol;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     /* background-color: red; */
 }
 
 .sonata {
     grid-area: son;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     /* background-color: blue; */
 }
 
 .chamber{
     grid-area: cha;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     /* background-color: blue; */
 }
@@ -76,3 +99,45 @@
     /* background-color: lightblue; */
     color: #2e2e2e;
 }
+
+.Button {
+    background-color: white;
+    /* border: 3px solid white; */
+    border-radius: 50px;
+    margin: auto;
+    background: transparent;
+    color: #197ac4;
+}
+
+.resume-button-container {
+    grid-area: res;
+    width: 100%;
+    display: block;
+    bottom: 0;
+    right: 0;
+    margin-top: auto;
+    /* background-color: red; */
+}
+
+.resume-text:hover {
+    color: white;;
+}
+
+a {
+    color: #2e2e2e;;
+    padding: 5px;
+    font-family: "Franklin Gothic medium", sans-serif !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    /* opacity: .5; */
+}
+
+.resume-text {
+    font-size: 1.9vh;
+    border: 3px solid #2e2e2e;
+}
+

@@ -21,7 +21,7 @@ class List extends Component {
                         {
                         this.props.list.map((item, index) =>
                             <tr key={index} >
-                                <td style={{height: 45, fontSize: "2vh", textAlign: "left"}}>
+                                <td style={{height: 45, fontSize: "2vh", textAlign: "left", padding: "5px"}}>
                                     <div className="text" style={{color: "#424954"}}>{item}</div>
                                 </td>
                             </tr>

@@ -47,3 +47,11 @@
     z-index: 0;
     color: #1A2426;
 }
+
+.component-container {
+    /* background: blue; */
+    height: 80%;
+    width: 60%;
+    margin: auto;
+    display: block;
+}
