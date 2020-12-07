@@ -14,16 +14,18 @@
 .logo {
     height: 70%;
     width: 10vh;
-    background-color: #B75129;
+    /* background-color: #B75129; */
     margin-top: auto;
     margin-bottom: auto;
     text-decoration-line: none;
+    border-radius: 100;
     z-index: 1;
 }
 
 .logo:hover {
-    background-color: rgb(192, 125, 0);
+    background-color: #CAB19D;
     cursor: pointer;
+    border-radius: 100px;
 }
 
 #bioImage {
@@ -31,8 +33,8 @@
     /* width: 100%; */
     margin: auto;
     display: table-row;
-    width: 27vh;
-    /* border-radius: 7%; */
+    width: 35vh;
+    border-radius: 30px;
     /* margin-bottom: 10px; */
 }
 

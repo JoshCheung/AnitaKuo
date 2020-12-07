@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "../css/Biography.css";
-import profilePic from '../../media/profile-pic.jpg'
-import secondPic from '../../media/secondary-picture.jpg'
+import profilePic from '../../media/profile-pic.jpg';
+import secondPic from '../../media/secondary-picture.jpg';
+
 
 class Biography extends Component {
     constructor (props) {
@@ -11,8 +12,6 @@ class Biography extends Component {
         }
     }
 
-
-    
     render() {
         return (
             <div className="bio-component-container">
@@ -54,7 +53,7 @@ class Biography extends Component {
                             </p>
                             <br/>
                             <p className="text"> 
-                               let's connect
+                               let's connect at anitakuo.0328@gmail.com !
                             </p>
 
                         </div>

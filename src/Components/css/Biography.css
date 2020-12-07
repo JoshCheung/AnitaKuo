@@ -8,6 +8,7 @@
 }
 
 #bio-component {
+    margin-top: 10vh;
     display: grid;
     height: 90%;
     width: 100%;

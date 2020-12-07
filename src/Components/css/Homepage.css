@@ -24,20 +24,20 @@
     grid-gap: 35px;
     /* grid-template-columns: repeat(9, 20vmin);
     grid-template-rows: repeat(10, 20vmin); */
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     grid-auto-rows: minmax(1, auto);
     
     grid-template-areas: 
-    ". . . . . . . . ."
-    "c c c . . . v v v"
-    "c c c p p p v v v"
-    "c c c p p p v v v" 
-    "h h h p p p v v v"
-    "h h h p p p v v v"
-    "h h h p p p n n n"
-    "h h h m m m m m m"
-    "h h h m m m m m m"
-    ". . . m m m m m m";
+    ". . . . . . . . . ."
+    "c c c . . . . v v v"
+    "c c c p p p p v v v"
+    "c c c p p p p v v v" 
+    ". . . p p p p . . ."
+    ". . . p p p p . . ."
+    "h h h p p p p m m m"
+    "h h h p p p p m m m"
+    "h h h . . . . m m m"
+    ". . . . . . . . . .";
 }
 
 .profile {
@@ -87,8 +87,8 @@
 
 
 .profile-component {
-    height: 100%;
-    width: 100%;
+    /* height: 100%; */
+    width: 15vw;
     /* border-radius: 30px; */
     /* background-color: lightblue; */
     color: #2e2e2e;
@@ -96,73 +96,90 @@
 
 .profile-component:hover {
     opacity: 0.9;
-    /* background-color: #B75129; */
+    /* background-color: #CAB19D; */
     cursor: pointer;
     color: white;
 }
 
 
 .hobbies-component {
-    height: 100%;
-    width: 100%;
-    /* border-radius: 30px; */
-    background-color: #E68A38;
+    /* height: 100%; */
+    width: 15vw;
+    margin: auto;
+    border-radius: 100%;
+    /* background-color: #E68A38; */
     color: #2e2e2e;
 }
 
 .hobbies-component:hover {
     opacity: 0.9;
-    background-color: #B75129;
+    background-color: #CAB19D;
     cursor: pointer;
     color: white;
 }
 
 
 .contacts-component {
-    height: 100%;
-    width: 100%;
-    /* border-radius: 30px; */
-    background-color: #E68A38;
+    width: 15vw;
+    margin: auto;
+    border-radius: 100%;
+    /* background-color: #E68A38; */
     color: #2e2e2e;
+}
+
+.icons {
+    width: 15vw;
+    /* height: 50%; */
+    margin: auto;
 }
 
 .contacts-component:hover {
     opacity: 0.9;
-    background-color: #B75129;
+    background-color: #CAB19D;
     cursor: pointer;
     color: white;
 }
 
 .performances-component {
-    height: 100%;
-    width: 100%;
-    /* border-radius: 30px; */
-    background-color: #E68A38;
+    width: 15vw;
+    margin: auto;
+    border-radius: 100%;
+    /* background-color: #E68A38; */
     color: #2e2e2e;
 }
 
 .performances-component:hover {
     opacity: 0.9;
-    background-color: #B75129;
+    background-color: #CAB19D;
     cursor: pointer;
     color: white;
 }
 
 .repertoire-component {
-    height: 100%;
-    width: 100%;
-    /* border-radius: 30px; */
-    background-color: #E68A38;
+    width: 15vw;
+    margin: auto;
+    border-radius: 100%;
+    /* background-color: #E68A38; */
     color: #2e2e2e;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .repertoire-component:hover {
     opacity: 0.9;
-    background-color: #B75129;
+    background-color: #CAB19D;
     cursor: pointer;
     color: white;
 }
+
+.contacts-component {
+    /* height: 100%;
+    width: 30vh; */
+    border-radius: 100%;
+    /* background-color: #E68A38; */
+    color: #2e2e2e;
+}
+
+
 
 .nameplate-component {
     height: 100%;

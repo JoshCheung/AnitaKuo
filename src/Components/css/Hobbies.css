@@ -9,10 +9,12 @@
 
 .hobbies-component-container{
     /* background: green; */
+    padding-top: 10vh;
     height: 85%;
     width: 80vw;
     margin: auto;
     display: block;
+
 }
 
 

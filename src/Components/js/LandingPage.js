@@ -13,20 +13,22 @@ import Contacts from './Contacts.js';
 import Hobbies from './Hobbies.js';
 import RepertoireList from './RepertoireList.js';
 import Performances from './Performances.js';
+import Logo from '../../media/logo.png';
+import AnitaKuo from '../../media/AnitaKuo.png';
 
 
 class LandingPage extends Component {
     constructor (props) {
         super(props);
         this.state = {
-            header: 'Anita Kuo'
+            headerImage: AnitaKuo
         }
         this.setHeader = this.setHeader.bind(this);
     }
 
-    setHeader(headerTitle) {
+    setHeader(newImage) {
         this.setState({
-            header: headerTitle
+            headerImage: newImage
         });
     }
 
@@ -36,13 +38,13 @@ class LandingPage extends Component {
             <Router>
                 <div className="home">
                     <div className="logo-container"> 
-                        <Link className="logo" to="/AnitaKuo/"  onClick={() => this.setHeader("Anita Kuo")}>  
-                            <div>
-                                logo
+                        <Link className="logo" to="/AnitaKuo/"  onClick={() => this.setHeader(AnitaKuo)}>  
+                            <div style={{margin: "auto"}}>
+                                <img className="logo" style={{height: "10vh", marginTop: "3px"}} src={Logo}/>
                             </div>
                         </Link>
                         <div className="content-header">
-                            {this.state.header}
+                            <img style={{height: "50%", width: "45vw", marginLeft: "100px"}} src={this.state.headerImage}/>
                         </div>
                     </div>
                     <Switch>

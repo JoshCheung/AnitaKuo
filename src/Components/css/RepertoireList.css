@@ -51,6 +51,7 @@
 
 .resume-button {
    height: 20px;
+   border-radius: 35px;
 }
 
 
@@ -58,7 +59,7 @@
     height: 100%;
     width: 100%;
     font-size: 2.75vh;
-    /* border-radius: 30px; */
+    border-radius: 30px;
     background-color: #CAB19D;
     /* border: 2px solid rgb(36, 36, 36); */
     color: #2e2e2e;
@@ -103,7 +104,7 @@
 .Button {
     background-color: white;
     /* border: 3px solid white; */
-    border-radius: 50px;
+    border-radius: 35px;
     margin: auto;
     background: transparent;
     color: #197ac4;
@@ -113,6 +114,7 @@
     grid-area: res;
     width: 100%;
     display: block;
+    border-radius: 35px;
     bottom: 0;
     right: 0;
     margin-top: auto;
@@ -139,5 +141,6 @@ a:hover {
 .resume-text {
     font-size: 1.9vh;
     border: 3px solid #2e2e2e;
+    border-radius: 35px;
 }
 
