@@ -10,6 +10,7 @@ import "../css/LandingPage.css";
 import Bio from './Biography.js';
 import Home from './Home.js';
 import Contacts from './Contacts.js';
+import Hobbies from './Hobbies.js';
 import RepertoireList from './RepertoireList.js';
 import Performances from './Performances.js';
 
@@ -53,7 +54,7 @@ class LandingPage extends Component {
                             <Bio/>
                         </Route>
                         <Route exact path="/AnitaKuo/hobbies">
-
+                            <Hobbies/>
                         </Route>
                         <Route exact path="/AnitaKuo/contacts">
                             <Contacts/>

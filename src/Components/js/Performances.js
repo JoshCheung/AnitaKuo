@@ -14,7 +14,7 @@ class Performances extends Component {
     
     render() {
         return (
-            <div className="component-container">
+            <div className="performances-component-container">
                 <div id="performances-component" className="grid">
                     <div className="main">
                         <div className="picture-component">

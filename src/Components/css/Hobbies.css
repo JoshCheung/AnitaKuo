@@ -1,20 +1,22 @@
-.video-component-container {
+.hobbies-component-container {
     /* background: blue; */
-    height: 90%;
+    /* height: 85%;
     width: 100%;
     margin: auto;
     display: block;
-    padding-top: 5vh;
+    padding-top: 5vh; */
 }
 
-.performances-component-container{
-     height: 90%;
-     width: 70%;
-     margin: auto;
-     display: block;
+.hobbies-component-container{
+    /* background: green; */
+    height: 80%;
+    width: 50%;
+    margin: auto;
+    display: block;
 }
 
-#performances-component {
+
+#hobbies-component {
     display: grid;
     height: 100%;
     width: 100%;
@@ -43,6 +45,8 @@
     grid-area: con;
     width: 100%;
     height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
     /* background-color: red; */
 }
 
