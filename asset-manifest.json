@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AnitaKuo/static/css/main.76c8c112.chunk.css",
+    "main.css": "/AnitaKuo/static/css/main.8ae7a70a.chunk.css",
     "main.js": "/AnitaKuo/static/js/main.c63b6bad.chunk.js",
     "main.js.map": "/AnitaKuo/static/js/main.c63b6bad.chunk.js.map",
     "runtime-main.js": "/AnitaKuo/static/js/runtime-main.cac2607b.js",
@@ -8,9 +8,9 @@
     "static/js/2.c329f6f0.chunk.js": "/AnitaKuo/static/js/2.c329f6f0.chunk.js",
     "static/js/2.c329f6f0.chunk.js.map": "/AnitaKuo/static/js/2.c329f6f0.chunk.js.map",
     "index.html": "/AnitaKuo/index.html",
-    "precache-manifest.5b9856e4a1a291b15258c2babac4ccc1.js": "/AnitaKuo/precache-manifest.5b9856e4a1a291b15258c2babac4ccc1.js",
+    "precache-manifest.40f91c9aa3fecc59d8124d999f44ca2b.js": "/AnitaKuo/precache-manifest.40f91c9aa3fecc59d8124d999f44ca2b.js",
     "service-worker.js": "/AnitaKuo/service-worker.js",
-    "static/css/main.76c8c112.chunk.css.map": "/AnitaKuo/static/css/main.76c8c112.chunk.css.map",
+    "static/css/main.8ae7a70a.chunk.css.map": "/AnitaKuo/static/css/main.8ae7a70a.chunk.css.map",
     "static/js/2.c329f6f0.chunk.js.LICENSE.txt": "/AnitaKuo/static/js/2.c329f6f0.chunk.js.LICENSE.txt",
     "static/media/AboutMe.png": "/AnitaKuo/static/media/AboutMe.4a9f98f9.png",
     "static/media/Anita-Kuo-2020-Resume.pdf": "/AnitaKuo/static/media/Anita-Kuo-2020-Resume.c7bd3398.pdf",
@@ -43,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.cac2607b.js",
     "static/js/2.c329f6f0.chunk.js",
-    "static/css/main.76c8c112.chunk.css",
+    "static/css/main.8ae7a70a.chunk.css",
     "static/js/main.c63b6bad.chunk.js"
   ]
 }
