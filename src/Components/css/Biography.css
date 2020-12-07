@@ -124,7 +124,7 @@
     margin: auto;
     display: table-row;
     width: 35vh;
-    /* border-radius: 7%; */
+    border-radius: 35px;
     /* margin-bottom: 10px; */
 }
 
@@ -134,6 +134,6 @@
     width: 35vh;
     margin: auto;
     /* display: table-row; */
-    /* border-radius: 7%; */
+    border-radius: 35px;
     /* margin-bottom: 10px; */
 }
