@@ -7,7 +7,7 @@ import {
   } from "react-router-dom";
 import "../css/Homepage.css";
 import Bio from './Biography.js';
-import profilePic from '../../media/temp-profile.jpg';
+import profilePic from '../../media/profile-pic.jpg';
 import AboutMe from '../../media/AboutMe.png';
 import Hobbies from '../../media/Hobbies2.png';
 import Contacts from '../../media/Contacts.png';

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../css/Biography.css";
-import profilePic from '../../media/profile-pic.jpg';
+import profilePic from '../../media/temp-profile.jpg';
 import secondPic from '../../media/secondary-picture.jpg';
 
 
