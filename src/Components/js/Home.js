@@ -38,33 +38,33 @@ class Home extends Component {
             <div className="component-container"> 
                 <div id="home-component" class="grid">
                     <div className="profile" onClick={() => this.setHeader(AboutMe)}>
-                        <Link to="/AnitaKuo/bio">
+                        <Link to="/bio">
                             <img id="bioImage" className="profile-component" src={profilePic}></img>
                         </Link>
                     </div>
                     <div className="hobbies">
-                        <Link to="/AnitaKuo/hobbies">
+                        <Link to="/hobbies">
                             <div className="hobbies-component" onClick={() => this.setHeader(Hobbies)}> 
                                 <img className="icons" src={hobbiesLogo}></img>
                             </div>
                         </Link>
                     </div>
                     <div className="contacts">
-                        <Link to="/AnitaKuo/contacts">        
+                        <Link to="/contacts">        
                             <div className="contacts-component" onClick={() => this.setHeader(Contacts)}>
                                 <img className="icons" src={contactsLogo}></img>
                             </div>
                         </Link>
                     </div>
                     <div className="performances">
-                        <Link to="/AnitaKuo/performances">
+                        <Link to="/performances">
                             <div className="performances-component" onClick={() => this.setHeader(Recordings)}>
                                 <img className="icons" src={performancesLgoo}></img>
                             </div>
                         </Link>
                     </div>
                     <div className="music">
-                        <Link to="/AnitaKuo/repertoirelist">
+                        <Link to="/repertoirelist">
                             <div className="repertoire-component" onClick={() => this.setHeader(Repertoire)}>
                                 <img className="icons" src={repertoireLogo}></img>
                             </div>

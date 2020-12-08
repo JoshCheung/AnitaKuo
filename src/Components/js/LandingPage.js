@@ -38,7 +38,7 @@ class LandingPage extends Component {
             <Router>
                 <div className="home">
                     <div className="logo-container"> 
-                        <Link className="logo" to="/AnitaKuo/"  onClick={() => this.setHeader(AnitaKuo)}>  
+                        <Link className="logo" to="/"  onClick={() => this.setHeader(AnitaKuo)}>  
                             <div style={{margin: "auto"}}>
                                 <img className="logo" style={{height: "10vh", marginTop: "3px"}} src={Logo}/>
                             </div>
@@ -48,23 +48,23 @@ class LandingPage extends Component {
                         </div>
                     </div>
                     <Switch>
-                        <Route exact path="/AnitaKuo/">
+                        <Route exact path="/">
                             <Home
                             setHeader={this.setHeader.bind(this)}/>
                         </Route>
-                        <Route exact path="/AnitaKuo/bio">
+                        <Route exact path="/bio">
                             <Bio/>
                         </Route>
-                        <Route exact path="/AnitaKuo/hobbies">
+                        <Route exact path="/hobbies">
                             <Hobbies/>
                         </Route>
-                        <Route exact path="/AnitaKuo/contacts">
+                        <Route exact path="/contacts">
                             <Contacts/>
                         </Route>
-                        <Route exact path="/AnitaKuo/performances">
+                        <Route exact path="/performances">
                             <Performances/>
                         </Route>
-                        <Route exact path="/AnitaKuo/repertoirelist">
+                        <Route exact path="/repertoirelist">
                             <RepertoireList/>
                         </Route>
                     </Switch>
