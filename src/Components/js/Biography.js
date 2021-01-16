@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../css/Biography.css";
+import AboutMe from '../../media/AboutMe.png';
 import profilePic from '../../media/temp-profile.jpg';
 import secondPic from '../../media/secondary-picture.jpg';
 
@@ -14,7 +15,10 @@ class Biography extends Component {
 
     render() {
         return (
-            <div className="bio-component-container">
+            <div className="bio-component-container" >
+                <div className="banner-about">
+                    <img className="name" src={AboutMe}/>
+                </div>
                 <div id="bio-component" className="grid">
                     <div className="picture-1">
                         <div className="picture-component-1">

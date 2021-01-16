@@ -1,10 +1,11 @@
 .video-component-container {
     /* background: blue; */
-    height: 90%;
+    height: 100%;
     width: 100%;
     margin: auto;
     display: block;
     padding-top: 5vh;
+    overflow: hidden;
 }
 
 .performances-component-container{
@@ -25,10 +26,6 @@
     grid-auto-rows: minmax(1, auto);
     
     grid-template-areas: 
-    " .   .   .   .   .   .   .   .   . " 
-    " .   .   .   .   .   .   .   .   . " 
-    " .   .   .   .   .   .   .   .   . " 
-    " .   .   .   .   .   .   .   .   . " 
     "con con con con con con con con con"
     "con con con con con con con con con"
     "con con con con con con con con con"
