@@ -14,7 +14,7 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <div style={{height: "100vh", overflowX: "hidden"}}>
+            <div style={{overflowX: "hidden"}}>
                 <div className="nav-container">
                     <nav fixed="top" id="navbar">
                         <div className="logo" >
@@ -45,7 +45,7 @@ export default class Navbar extends Component {
                                         spy={true}
                                         smooth={true}
                                         offset={-70}
-                                        duration={500}
+                                        duration={600}
                                         >
                                     Lessons
                                     </Link>
@@ -59,7 +59,7 @@ export default class Navbar extends Component {
                                         spy={true}
                                         smooth={true}
                                         offset={-70}
-                                        duration={500}
+                                        duration={700}
                                         >
                                     Recordings
                                     </Link>
@@ -72,7 +72,7 @@ export default class Navbar extends Component {
                                         spy={true}
                                         smooth={true}
                                         offset={-70}
-                                        duration={500}
+                                        duration={800}
                                         >
                                     Hobbies
                                     </Link>
@@ -85,7 +85,7 @@ export default class Navbar extends Component {
                                         spy={true}
                                         smooth={true}
                                         offset={-70}
-                                        duration={500}
+                                        duration={900}
                                         >
                                     Contacts
                                     </Link>
@@ -93,9 +93,6 @@ export default class Navbar extends Component {
                             </ul>
                         </div>
                     </nav>
-                </div>
-                <div className="nav-image">
-                    <img className="wallpaper" src={image}/>
                 </div>
             </div>
             

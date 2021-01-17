@@ -26,6 +26,9 @@ class Main extends Component {
             
             <div className="home">
                 <Navbar/>
+                <div className="dividing-image">
+                    <img className="div-wallpaper" src={image}/>
+                </div>
                 <Bio id="about"/>
                 {/* <Lessons id="lessons"/> */}
                 <Performances id="recordings"/>

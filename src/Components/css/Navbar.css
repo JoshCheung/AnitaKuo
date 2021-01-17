@@ -84,7 +84,7 @@ nav {
     margin-top: 7vh;
     width: 100vw;
     height: 45%;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* background: blue; */
 }
   
