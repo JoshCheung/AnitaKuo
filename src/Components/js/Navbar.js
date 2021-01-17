@@ -14,7 +14,7 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <div style={{overflowX: "hidden"}}>
+            <div style={{overflow: "hidden"}}>
                 <div className="nav-container">
                     <nav fixed="top" id="navbar">
                         <div className="logo" >
