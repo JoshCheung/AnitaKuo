@@ -17,7 +17,7 @@ class Biography extends Component {
         return (
             <div className="bio-component-container" >
                 <div className="banner-about">
-                    <img className="name" src={AboutMe}/>
+                    <img className="name" src={AboutMe} id={this.props.id}/>
                 </div>
                 <div id="bio-component" className="grid">
                     <div className="picture-1">

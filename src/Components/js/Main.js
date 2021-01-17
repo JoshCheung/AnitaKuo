@@ -5,6 +5,7 @@ import Bio from './Biography.js';
 import Lessons from './Lessons.js';
 import Performances from './Performances.js';
 import Hobbies from './Hobbies.js';
+import Contacts from './Contacts.js';
 import image from '../../media/wallpaper.jpg';
 
 
@@ -16,20 +17,23 @@ class Main extends Component {
         }
     }
 
+    componentDidMount() {
+        window.addEventListener('scroll', this.listenScrollEvent)
+    }
 
-    
     render() {
         return (
             
             <div className="home">
                 <Navbar/>
-                <Bio/>
-                {/* <Lessons/> */}
-                <Performances/>
+                <Bio id="about"/>
+                <Lessons id="lessons"/>
+                <Performances id="recordings"/>
                 <div className="dividing-image">
                     <img className="div-wallpaper" src={image}/>
                 </div>
-                <Hobbies/>
+                <Hobbies id="hobbies"/>
+                <Contacts id="contacts"/>
 
             </div>
         );

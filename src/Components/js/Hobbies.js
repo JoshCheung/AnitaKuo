@@ -37,56 +37,56 @@ import pic_1 from '../../media/1.jpg';
 
 
 const photos = [
-    {
-        src: eggtarts,
-        width: 3.6,
-        height: 4.8
-    },
-    {
-        src: beefdish,
-        width: 4.3,
-        height: 3.7
-    },
-    {
-        src: sourdough,
-        width: 3.4,
-        height: 4.5
-    },
-    {
-        src: mantou,
-        width: 4.6,
-        height: 3
-    },
-    {
-        src: pasta,
-        width: 3.5,
-        height: 6.3
-    },
+    // {
+    //     src: eggtarts,
+    //     width: 3.6,
+    //     height: 4.8
+    // },
+    // {
+    //     src: beefdish,
+    //     width: 4.3,
+    //     height: 3.7
+    // },
+    // {
+    //     src: sourdough,
+    //     width: 3.4,
+    //     height: 4.5
+    // },
+    // {
+    //     src: mantou,
+    //     width: 4.6,
+    //     height: 3
+    // },
+    // {
+    //     src: pasta,
+    //     width: 3.5,
+    //     height: 6.3
+    // },
     {
         src: pie,
         width: 4.7,
         height: 3.5
     },
-    {
-        src: sandwich,
-        width: 3.7,
-        height: 5
-    },
-    {
-        src: cheesecake,
-        width: 3.8,
-        height: 3.1
-    },
-    {
-        src: blacksesamebread,
-        width: 2.83,
-        height: 3.77
-    },
-    {
-        src: creampuffs,
-        width: 4.53,
-        height: 3.02
-    },
+    // {
+    //     src: sandwich,
+    //     width: 3.7,
+    //     height: 5
+    // },
+    // {
+    //     src: cheesecake,
+    //     width: 3.8,
+    //     height: 3.1
+    // },
+    // {
+    //     src: blacksesamebread,
+    //     width: 2.83,
+    //     height: 3.77
+    // },
+    // {
+    //     src: creampuffs,
+    //     width: 4.53,
+    //     height: 3.02
+    // },
     {
         src: creampuff,
         width: 4.98,
@@ -107,11 +107,11 @@ const photos = [
         width: 4.1,
         height: 2.7
     },
-    {
-        src: pic_4,
-        width: 4.1,
-        height: 2.7
-    },
+    // {
+    //     src: pic_4,
+    //     width: 4.1,
+    //     height: 2.7
+    // },
     {
         src: pic_5,
          width: 4.1,
@@ -147,21 +147,21 @@ const photos = [
          width: 4.1,
         height: 2.7
     },
-    {
-        src: pic_12,
-         width: 4.1,
-        height: 2.7
-    },
+    // {
+    //     src: pic_12,
+    //      width: 4.1,
+    //     height: 2.7
+    // },
     {
         src: pic_13,
          width: 1.4,
         height: 0.96
     },
-    {
-        src: pic_14,
-         width: 4.1,
-        height: 2.7
-    },
+    // {
+    //     src: pic_14,
+    //      width: 4.1,
+    //     height: 2.7
+    // },
     {
         src: pic_15,
          width: 4.1,
@@ -177,26 +177,26 @@ const photos = [
          width: 4.1,
         height: 2.7
     },
-    {
-        src: pic_18,
-         width: 4.1,
-        height: 2.7
-    },
+    // {
+    //     src: pic_18,
+    //      width: 4.1,
+    //     height: 2.7
+    // },
     {
         src: pic_19,
          width: 4.1,
         height: 2.7
     },
-    {
-        src: pic_20,
-         width: 4.1,
-        height: 2.7
-    },
-    {
-        src: pic_21,
-         width: 4.1,
-        height: 2.7
-    }
+    // {
+    //     src: pic_20,
+    //      width: 4.1,
+    //     height: 2.7
+    // },
+    // {
+    //     src: pic_21,
+    //      width: 4.1,
+    //     height: 2.7
+    // }
 ];
     
    
@@ -214,7 +214,7 @@ class Hobbies extends Component {
         return (
             <div className="hobbies-component-container">
                 <div className="banner-title-2">
-                    <img className="name" src={Hobbies2}/>
+                    <img className="name" src={Hobbies2} id={this.props.id}/>
                 </div>
                 <div id="hobbies-component" className="grid">
                     <div className="main">

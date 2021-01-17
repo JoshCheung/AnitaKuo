@@ -88,7 +88,7 @@ class Lessons extends Component {
         return (
             <div className="hobbies-component-container">
                 <div className="banner-title-2">
-                    <img className="name" src={Hobbies2}/>
+                    <img className="name" src={Hobbies2} id={this.props.id}/>
                 </div>
                 <div id="hobbies-component" className="grid">
                     <div className="main">

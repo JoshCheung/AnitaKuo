@@ -5,9 +5,9 @@ import LandingPage from './Components/js/LandingPage.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{overflowX: "hidden"}}>
       <header className="App-header">
-        <LandingPage/>
+        <LandingPage />
       </header>
     </div>
   );

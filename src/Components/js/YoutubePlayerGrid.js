@@ -18,28 +18,28 @@ class YoutubePlayerGrid extends Component {
                         <tr style={{width: "100%"}}>
                             <td>
                                 <ReactPlayer url={this.props.videoList[0].url}
-                                    height='20vh'
+                                    height='30vh'
                                     width='22vw'
                                 />
-                                <div style={{height: "20px", fontSize: "1.9vh", paddingBottom: "20px", textAlign: "center"}} >
+                                <div style={{height: "20px", fontSize: "2vh", paddingBottom: "20px", textAlign: "center"}} >
                                     {this.props.videoList[0].title}
                                 </div>
                             </td>
                             <td>
                                 <ReactPlayer url={this.props.videoList[1].url}
-                                    height='20vh'
+                                    height='30vh'
                                     width='22vw'
                                 />
-                                <div style={{height: "20px", fontSize: "1.9vh", paddingBottom: "20px", textAlign: "center"}}>
+                                <div style={{height: "20px", fontSize: "2vh", paddingBottom: "20px", textAlign: "center"}}>
                                     {this.props.videoList[1].title}
                                 </div>
                             </td>
                             <td>
                                 <ReactPlayer url={this.props.videoList[2].url}
-                                    height='20vh'
+                                    height='30vh'
                                     width='22vw'
                                 />
-                                <div style={{height: "20px", fontSize: "1.9vh", paddingBottom: "20px", textAlign: "center"}}>
+                                <div style={{height: "20px", fontSize: "2vh", paddingBottom: "20px", textAlign: "center"}}>
                                     {this.props.videoList[2].title}
                                 </div>
                             </td>

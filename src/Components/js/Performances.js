@@ -18,7 +18,7 @@ class Performances extends Component {
         return (
             <div className="performances-component-container">
                 <div className="banner-title">
-                    <img className="name" src={Recordings}/>
+                    <img className="name" src={Recordings} id={this.props.id}/>
                 </div>
                 <div id="performances-component" className="grid">
                     <div className="main">
