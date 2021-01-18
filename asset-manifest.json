@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.95d16b3d.chunk.css",
-    "main.js": "/static/js/main.99d57fd1.chunk.js",
-    "main.js.map": "/static/js/main.99d57fd1.chunk.js.map",
+    "main.css": "/static/css/main.850a2510.chunk.css",
+    "main.js": "/static/js/main.db1bd33d.chunk.js",
+    "main.js.map": "/static/js/main.db1bd33d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dbf410c9.js",
     "runtime-main.js.map": "/static/js/runtime-main.dbf410c9.js.map",
-    "static/js/2.6c2153d4.chunk.js": "/static/js/2.6c2153d4.chunk.js",
-    "static/js/2.6c2153d4.chunk.js.map": "/static/js/2.6c2153d4.chunk.js.map",
+    "static/js/2.3187b016.chunk.js": "/static/js/2.3187b016.chunk.js",
+    "static/js/2.3187b016.chunk.js.map": "/static/js/2.3187b016.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.09c89b64a64895c4a06d9280560181f7.js": "/precache-manifest.09c89b64a64895c4a06d9280560181f7.js",
+    "precache-manifest.18d439a0058a5b26fd8ff8564b50f16f.js": "/precache-manifest.18d439a0058a5b26fd8ff8564b50f16f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.95d16b3d.chunk.css.map": "/static/css/main.95d16b3d.chunk.css.map",
-    "static/js/2.6c2153d4.chunk.js.LICENSE.txt": "/static/js/2.6c2153d4.chunk.js.LICENSE.txt",
+    "static/css/main.850a2510.chunk.css.map": "/static/css/main.850a2510.chunk.css.map",
+    "static/js/2.3187b016.chunk.js.LICENSE.txt": "/static/js/2.3187b016.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/static/media/1.b6b16897.jpg",
     "static/media/10.jpg": "/static/media/10.9fd33e30.jpg",
     "static/media/11.jpg": "/static/media/11.157e91a9.jpg",
@@ -37,6 +37,7 @@
     "static/media/AnitaKuo.png": "/static/media/AnitaKuo.85ed2986.png",
     "static/media/Contacts.png": "/static/media/Contacts.8db1584d.png",
     "static/media/Hobbies2.png": "/static/media/Hobbies2.2db0bed8.png",
+    "static/media/Lessons.png": "/static/media/Lessons.4cc4619d.png",
     "static/media/Recordings.png": "/static/media/Recordings.5197a761.png",
     "static/media/beef-dish.jpg": "/static/media/beef-dish.0161191f.jpg",
     "static/media/black-sesame-loaf.jpg": "/static/media/black-sesame-loaf.3e8ce990.jpg",
@@ -59,8 +60,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.dbf410c9.js",
-    "static/js/2.6c2153d4.chunk.js",
-    "static/css/main.95d16b3d.chunk.css",
-    "static/js/main.99d57fd1.chunk.js"
+    "static/js/2.3187b016.chunk.js",
+    "static/css/main.850a2510.chunk.css",
+    "static/js/main.db1bd33d.chunk.js"
   ]
 }
