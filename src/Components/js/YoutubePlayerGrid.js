@@ -23,7 +23,7 @@ class YoutubePlayerGrid extends Component {
                                 <tr style={{width: "100%"}}>
                                     <td>
                                         <ReactPlayer url={this.props.videoList[0].url}
-                                            height='100%'
+                                            height='30vh'
                                             width='100%'
                                         />
                                         <div style={{height: "20px", fontSize: "1.9vh", paddingBottom: "20px", textAlign: "center", margin: "auto"}} >
@@ -34,7 +34,7 @@ class YoutubePlayerGrid extends Component {
                                 <tr style={{width: "100%"}}>
                                     <td>
                                         <ReactPlayer url={this.props.videoList[1].url}
-                                            height='100%'
+                                            height='30vh'
                                             width='100%'
                                         />
                                         <div style={{height: "20px", fontSize: "1.9vh", paddingBottom: "20px", textAlign: "center", margin: "auto"}} >
@@ -45,7 +45,7 @@ class YoutubePlayerGrid extends Component {
                                 <tr style={{width: "100%"}}>
                                     <td>
                                         <ReactPlayer url={this.props.videoList[2].url}
-                                            height='100%'
+                                            height='30vh'
                                             width='100%'
                                         />
                                         <div style={{height: "20px", fontSize: "1.9vh", paddingBottom: "20px", textAlign: "center", margin: "auto"}} >
