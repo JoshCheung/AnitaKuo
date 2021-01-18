@@ -15,9 +15,9 @@ class Biography extends Component {
 
     render() {
         return (
-            <div className="bio-component-container" >
+            <div className="bio-component-container">
                 <div className="banner-about">
-                    <img className="name" src={AboutMe} id={this.props.id}/>
+                    <img className="banner-about" src={AboutMe} id={this.props.id}/>
                 </div>
                 <div id="bio-component" className="grid">
                     <div className="picture-1">
@@ -31,7 +31,7 @@ class Biography extends Component {
                         </div>
                     </div>
                     <div className="textbox-1">
-                        <div className="textbox1-component">
+                        <div className="textbox1-component" id="textbox1-component">
                             <p className="text"> hi, I’m Anita! </p>
                             <p className="text">
                                 I am a violinist and educator pursuing my BM in Violin Performance 
@@ -47,7 +47,7 @@ class Biography extends Component {
                             </p>
                         </div>
                     </div>
-                    <div className="textbox-2">
+                    <div className="textbox-2" id="textbox2-component">
                         <div className="picture-component">
                             <p className="text"> 
                                 when I’m not poring over small black dots on a page, you can find me covered in flour, 

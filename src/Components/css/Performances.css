@@ -34,7 +34,15 @@
     "con con con con con con con con con"
     "con con con con con con con con con"
     "con con con con con con con con con";
-    
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+
+.videoTable {
+    width: 100%;
+    margin: auto;
 }
 
 .main {

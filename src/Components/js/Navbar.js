@@ -28,11 +28,11 @@ export default class Navbar extends Component {
                         <div className="navigation-bar">
                            
                             <ul className="header">
-                                <div className="email-container"> 
+                                <li className=""> 
                                     <div className="email">
                                         anitakuo.0328@gmail.com
                                     </div>
-                                </div>
+                                </li>
                                 <div className="inner-navbar">
                                     <li className="nav-headers">
                                         <Link 

@@ -25,6 +25,54 @@
     /* height: 50%; */
 }
 
+@media screen and (max-width: 1024px) {
+    .name {
+        width: 100% !important;
+    }
+
+    .inner-navbar {
+        width: 50%;
+        display: block !important;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .nav-headers{
+        display: block !important;
+        margin: auto;
+        font-size:  2.5vh;
+        color: black;
+    }
+
+    ul.header {
+        /* color: transparent; */
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        display: block !important;
+        justify-content: space-evenly;
+    }
+
+    .email {
+        color: black;
+        justify-content: space-evenly;
+        /* padding-left: 2vw; */
+        font-size: 2vh;
+        margin: auto;;
+        position: relative !important;
+    }
+    
+    .icon-ig {
+        /* width: 50px; */
+        width: 95% !important;
+        float: center !important;
+        right: none !important;
+        justify-content: none !important;
+        padding: none !important;
+    }
+
+}
+
 .name {
     width: 50%;
 }
@@ -46,6 +94,7 @@ ul.header {
     display: flex;
     justify-content: space-evenly;
 }
+
 ul.header li a {
     color: black;
     font-weight: bold;
@@ -105,6 +154,7 @@ nav {
 }
 
 .nav-headers{
+    display: flex;
     margin: auto;
     font-size:  2.5vh;
     color: black;
@@ -117,15 +167,19 @@ nav {
 }
 
 .email {
-  
     color: black;
-    display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
-    padding-left: 2vw;
+    /* padding-left: 2vw; */
     font-size: 2vh;
     margin: auto;
-    width: 100%;
-    /* background: blue; */
-    /* position: absolute; */
+    width: 10%;
+
+}
+
+.icon-ig {
+    /* width: 50px; */
+    width: 10%;
+    float: right;
+    right: 0;
+    justify-content: flex-end;
 }

@@ -4,7 +4,7 @@ import "../css/Lessons.css";
 import eggtarts from '../../media/egg-custards.jpg';
 import mantou from '../../media/mantou.jpg';
 
-import Hobbies2 from '../../media/Hobbies2.png';
+import lessons from '../../media/Lessons.png';
  
 
    
@@ -20,7 +20,7 @@ class Lessons extends Component {
         return (
             <div className="lessons-component-container">
                 <div className="banner-title-2">
-                    <img className="name" src={Hobbies2} id={this.props.id}/>
+                    <img className="name" src={lessons} id={this.props.id}/>
                 </div>
                 <div id="lessons-component" className="grid">
                     <div className="l-text">
@@ -29,7 +29,7 @@ class Lessons extends Component {
                         </p>
                     </div> 
                     <div className="l-picture">
-                        <img src={mantou}/>
+                        <img className="lesson-picture" src={mantou}/>
                     </div> 
                     <div className="l-contact">
                         <p className="lesson-text" style={{margin: "auto", marginTop: "auto"}}>
