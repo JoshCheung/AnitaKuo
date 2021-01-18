@@ -30,10 +30,12 @@
 }
 
 ul.header li {
-    display: inline;
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 0px;
     padding: 2vw;
+
 }
 
 ul.header {
@@ -41,6 +43,7 @@ ul.header {
     padding: 0;
     margin: 0;
     width: 100vw;
+    display: flex;
     justify-content: space-evenly;
 }
 ul.header li a {
@@ -80,6 +83,13 @@ nav {
     margin-bottom: 1vh;
 }
 
+.inner-navbar {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
 .nav-image {
     margin-top: 7vh;
     width: 100vw;
@@ -96,6 +106,26 @@ nav {
 
 .nav-headers{
     margin: auto;
-    font-size:  3vh;
+    font-size:  2.5vh;
     color: black;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
+
+.email {
+  
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 2vw;
+    font-size: 2vh;
+    margin: auto;
+    width: 100%;
+    /* background: blue; */
+    /* position: absolute; */
 }
