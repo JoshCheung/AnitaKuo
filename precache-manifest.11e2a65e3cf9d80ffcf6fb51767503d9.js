@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94548bfe9572aeced87af985727304f3",
+    "revision": "d21f2e30ec4fbb255640ef66a9e22eb8",
     "url": "/index.html"
   },
   {
-    "revision": "3da6374e00aa6ea2bcdc",
-    "url": "/static/css/main.545e382b.chunk.css"
+    "revision": "69b1dbc6ee0ca1b875ec",
+    "url": "/static/css/main.309c98f8.chunk.css"
   },
   {
     "revision": "7da982d0588484126323",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.75c6eed3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3da6374e00aa6ea2bcdc",
-    "url": "/static/js/main.49a4e7a7.chunk.js"
+    "revision": "69b1dbc6ee0ca1b875ec",
+    "url": "/static/js/main.a7bc4cc5.chunk.js"
   },
   {
     "revision": "42fccb107ddbcc362233",
@@ -176,6 +176,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mantou.ce429575.jpg"
   },
   {
+    "revision": "e63f867c156fb2bf3c5ea0534efafcd1",
+    "url": "/static/media/profilepic.e63f867c.jpg"
+  },
+  {
     "revision": "23667a3cc64858ed8556808e06c085ac",
     "url": "/static/media/raspberry-pie.23667a3c.jpg"
   },
@@ -190,10 +194,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "879ebe01bac4b7caae038be2f1d72fbb",
     "url": "/static/media/sourdough.879ebe01.jpg"
-  },
-  {
-    "revision": "7fda006315c1de0b024d10760c854971",
-    "url": "/static/media/temp-profile.7fda0063.jpg"
   },
   {
     "revision": "ebab314ee287bfeb31c8d657bed0956d",
