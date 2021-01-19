@@ -31,36 +31,30 @@ class Lessons extends Component {
         this.setState({
             name: e.target.value
         });
-        console.log(this.state.name);
     }
 
     handleSubjectChange(e) {
         this.setState({
             subject: e.target.value
         });
-        console.log(this.state.subject);
     }
 
     handleEmailChange(e) {
         this.setState({
             email: e.target.value
         });
-        console.log(this.state.email);
     }
 
     handleMessageChange(e) {
         this.setState({
             message: e.target.value
         });
-        console.log(this.state.message);
+
     }
 
     handleSubmit(e) {
         e.preventDefault();
-        console.log(this.state.name);
-        console.log(this.state.email);
-        console.log(this.state.subject);
-        console.log(this.state.message);
+
         emailjs.sendForm('gmail', 'template_93y500i', e.target, 'user_5sUyV2skLxSwfjfrYxfeZ')
         .then((result) => {
             console.log(result.text);
@@ -83,9 +77,12 @@ class Lessons extends Component {
                 </div>
                 <div id="lessons-component" className="grid">
                     <div className="l-text">
-                        <p className="lesson-text">
-                            Description
-                        </p>
+                        <div className="lesson-text">
+                            I enjoy working with children and providing my students with the stable foundation necessary for their budding musical educations. 
+                        </div>
+                        <div className="lesson-text">
+                            I teach all ages 6 and above, from beginners to advanced violinists who are looking for someone to further their classical training.
+                        </div>
                     </div> 
                     <div className="l-picture">
                         <img className="lesson-picture" src={mantou}/>

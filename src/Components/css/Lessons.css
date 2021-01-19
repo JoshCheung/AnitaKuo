@@ -48,6 +48,9 @@
     height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
     /* background: red; */
 }
 
@@ -82,12 +85,13 @@
 
 .lesson-text {
     color: black;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
-    padding: 10%;
-    font-size: 2vh;
-    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    /* padding: 10%; */
+    font-size: 2.5vh;
+    margin-bottom: 1vh;
+    /* margin: auto; */
 }
 
 .lesson-picture {

@@ -36,8 +36,7 @@ class Biography extends Component {
                             <p className="text">
                                 I am a violinist and educator pursuing my BM in Violin Performance 
                                 at the Peabody Institute of the Johns Hopkins University, under the tutelage 
-                                of Herbert Greenberg. I enjoy working with children and providing my students with 
-                                the stable foundation necessary to their budding musical education. 
+                                of Herbert Greenberg.
                             </p>
                             <p className="text">
                                 in 2017, I was named winner and the Outstanding gold medalist of the US Open Music Competition, 
