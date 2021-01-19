@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../css/Biography.css";
 import AboutMe from '../../media/AboutMe.png';
-import profilePic from '../../media/temp-profile.jpg';
+import profilePic from '../../media/profilepic.jpg';
 import secondPic from '../../media/secondary-picture.jpg';
 
 
